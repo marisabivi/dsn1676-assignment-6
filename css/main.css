@@ -89,6 +89,39 @@ div {
   animation: ball-bounce 1s linear;
 }
 
+@-webkit-keyframes ball-bounce {
+
+    0% {
+      top:calc(50% - 70px);
+      top: 2em;
+    }
+    
+    25% {
+      top:calc(50% - 60px);
+      right: 4em;
+    }
+    
+    50% {
+      top:calc(50% - 40px);
+      right: 6em;
+    }
+
+    75% {
+      top:calc(50% - 60px);
+      right: 8em;
+    }
+  
+    90% {
+      top:calc(50% - 30px);
+      right: 10em;
+    }
+
+    100% {
+      top:calc(50% - 50px);
+      right: 9em;
+    }
+}
+
 @keyframes ball-bounce {
 
     0% {
