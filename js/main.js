@@ -10,10 +10,15 @@ var $panel = $('.circle');
 var $btnAppend = $('.btn-append');
 var $list = $('.list');
 
+
 $showHide.on('click', function () {
     $box.toggleClass('js-box-show');
 });
 
 $btnMove.on('click', function () {
     $diamond.toggleClass('js-move');
+});
+
+$btnCollapse.on('click', function () {
+    $panel.toggleClass('js-panel-collapse');
 });

@@ -58,13 +58,19 @@ div {
 .panel {
   width: 250px;
   top: 50%;
-
   background-color: yellow;
   transform: translateY(-50%);
-
   color: darkgoldenrod;
   text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
 }
+
+.js-panel-collapse {
+  max-height: 10em;
+}
+ 
 
 .panel h2 {
   margin: 0;
