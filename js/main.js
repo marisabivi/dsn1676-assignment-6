@@ -13,3 +13,7 @@ var $list = $('.list');
 $showHide.on('click', function () {
     $box.toggleClass('js-box-show');
 });
+
+$btnMove.on('click', function () {
+    $diamond.toggleClass('js-move');
+});
