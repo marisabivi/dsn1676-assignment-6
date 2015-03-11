@@ -70,7 +70,6 @@ div {
 .js-panel-collapse {
   max-height: 10em;
 }
- 
 
 .panel h2 {
   margin: 0;
@@ -106,4 +105,9 @@ div {
   border: 1px solid mediumpurple;
 
   color: mediumpurple;
+}
+
+.js-ball-bounce{
+  -webkit-animation: ball-bounce 1s linear;
+  animation: ball-bounce 1s linear;
 }
