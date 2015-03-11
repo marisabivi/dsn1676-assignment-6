@@ -29,3 +29,15 @@ $btnCollapse.on('click', function () {
 $btnBounce.on('click', function () {
     $circle.toggleClass('js-ball-bounce');
 });
+
+$circle.on('webkitAnimationEnd animationend', function () {
+    $circle.removeClass('js-ball-bounce');
+});
+
+$btnAppend.on('click', function() {
+
+        var $li = $('<li>').html('New List Item');
+    
+        $list.prepend($li);
+        $li.toggleClass ('js-list-append');
+});
