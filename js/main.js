@@ -11,5 +11,5 @@ var $btnAppend = $('.btn-append');
 var $list = $('.list');
 
 $showHide.on('click', function () {
-    $diamond.toggleClass('js-move');
+    $box.toggleClass('js-box-show');
 });
