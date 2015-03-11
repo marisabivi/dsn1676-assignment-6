@@ -9,3 +9,7 @@ var $panel = $('.circle');
 
 var $btnAppend = $('.btn-append');
 var $list = $('.list');
+
+$showHide.on('click', function () {
+    $diamond.toggleClass('js-move');
+});

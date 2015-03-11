@@ -35,6 +35,10 @@ div {
   background-color: limegreen;
 }
 
+.js-box-show {
+    opacity: 1;
+}
+
 .diamond {
   height: 80px;
   right: 2em;
